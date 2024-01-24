@@ -2,9 +2,9 @@ const settings = {
   "name": "landing-page",
   "state": {
     "frontity": {
-      "url": "https://katterek.com",
-      "title": "Test Frontity Blog",
-      "description": "WordPress installation for Frontity development"
+      "url": "https://katterek.com"
+      // "title": "Test Frontity Blog",
+      // "description": "WordPress installation for Frontity development"
     }
   },
   "packages": [
@@ -28,6 +28,7 @@ const settings = {
         }
       }
     },
+    "@frontity/head-tags",
     "@frontity/tiny-router",
     "@frontity/html2react"
   ]

@@ -1,0 +1,11 @@
+
+@font-face {
+    font-family: 'Bebas Neue';
+    font-weight: 100;
+    font-style: normal;
+    src: 
+    /* url('./fonts/RNHouseSansW01Thin.eot#iefix)') format('eot'),
+    url('./fonts/RNHouseSansW01Thin.woff2') format('woff2'),
+    url('./fonts/RNHouseSansW01Thin.woff') format('woff'), */
+    url('./fonts/BebasNeue-Regular.ttf') format('truetype');
+  }

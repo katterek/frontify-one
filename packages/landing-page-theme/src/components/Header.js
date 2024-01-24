@@ -25,8 +25,7 @@ const Header = ({state, actions, isPostType}) => {
         {state.theme.isMenuOpen ? (
             <Menu>
                 <Button onClick={actions.theme.closeMenu}>Close</Button>
-                {items.map(item => <Link href={item.url}>{item.title}</Link>)}
-                <Link href={items[0].url}>{items[0].title}</Link>
+                {items.map(item => <Link key={item.title} href={item.url}>{item.title}</Link>)}
             </Menu>
             ) :  <Button onClick={actions.theme.openMenu}>Menu</Button>
         }
